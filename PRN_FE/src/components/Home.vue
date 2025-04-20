@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar.vue";
 import Footer from "./Footer.vue";
 import DestinationCard from "./DestinationCard.vue";
 import { useRoute, useRouter } from "vue-router";
-import { API_ENDPOINTS } from "@/constant/apiConstants";
+import { API_ENDPOINTS } from "@/constant/apiConstants.js";
 
 export default {
   name: "HomePage",
