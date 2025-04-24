@@ -51,35 +51,15 @@ const routes = [
     path: "/create-host",
   },
 //   {
-//     name: "Posts",
-//     component: Posts,
-//     path: "/create-post",
-//   },
-//   {
 //     name: "Detail",
 //     component: Detail,
 //     path: "/detail/:id",
 //   },
-//   {
-//     name: "UpdateRoom",
-//     component: UpdateRoom,
-//     path: "/update/:id",
-//   },
-  //   {
-  //     name: "CreateHost",
-  //     component: CreateHost,
-  //     path: "/create-host",
-  //   },
   {
     name: "Posts",
     component: Posts,
     path: "/create-post",
   },
-  //   {
-  //     name: "Detail",
-  //     component: Detail,
-  //     path: "/detail/:id",
-  //   },
   {
     name: "UpdateRoom",
     component: UpdateRoom,
