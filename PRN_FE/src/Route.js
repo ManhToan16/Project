@@ -4,7 +4,7 @@ import SignUp from "./components/SignUp.vue";
 import SignIn from "./components/SignIn.vue";
 // import SearchResult from "./components/SearchResult.vue";
 import Profile from "./components/Profile.vue";
-// import CreateHost from "./components/CreateHost.vue";
+import CreateHost from "./components/CreateHost.vue";
 // import Posts from "./components/Posts.vue";
 // import Detail from "./components/Detail.vue";
 import About from "./components/About.vue";
@@ -45,11 +45,11 @@ const routes = [
     component: Profile,
     path: "/profile",
   },
-//   {
-//     name: "CreateHost",
-//     component: CreateHost,
-//     path: "/create-host",
-//   },
+  {
+    name: "CreateHost",
+    component: CreateHost,
+    path: "/create-host",
+  },
 //   {
 //     name: "Posts",
 //     component: Posts,
