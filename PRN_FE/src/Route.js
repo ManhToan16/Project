@@ -2,6 +2,7 @@ import { createWebHistory, createRouter } from "vue-router";
 import Home from "./components/Home.vue";
 import SignUp from "./components/SignUp.vue";
 import SignIn from "./components/SignIn.vue";
+import ManagePlace from "./components/ManagePlace.vue";
 // import SearchResult from "./components/SearchResult.vue";
 import Profile from "./components/Profile.vue";
 import CreateHost from "./components/CreateHost.vue";
@@ -32,7 +33,12 @@ const routes = [
     component: SignIn,
     path: "/sign-in",
   },
-  //   {
+    {
+    name:"ManagePlace",
+    component: ManagePlace,
+    path: "/ManagePlace"
+  }
+//   {
   //     name: "SearchResult",
   //     component: SearchResult,
   //     path: "/search",
