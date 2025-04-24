@@ -1,6 +1,6 @@
 // Localhost
 // export const API_BASE_URL = "https://localhost:7210/api"; //https
-export const API_BASE_URL = "https://localhost:7210/api"; // http
+export const API_BASE_URL = "https://localhost:7223/api"; // http
 
 // Internet
 // export const API_BASE_URL = "http://103.9.77.15:10003/api";
