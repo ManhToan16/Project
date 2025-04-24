@@ -27,7 +27,7 @@ export default {
             }
             try {
                 const response = await fetch(
-                    "https://localhost:7210/api/booking/get-bookingstatus", // Sửa endpoint
+                    "https://localhost:7223/api/booking/get-bookingstatus", // Sửa endpoint
                     {
                         method: "GET",
                         headers: {

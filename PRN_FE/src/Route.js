@@ -8,7 +8,7 @@ import CreateHost from "./components/CreateHost.vue";
 import Posts from "./components/Posts.vue";
 // import Detail from "./components/Detail.vue";
 import About from "./components/About.vue";
-import Contact from "./components/Contact.vue"; s
+import Contact from "./components/Contact.vue"; 
 import UpdateRoom from "./components/UpdateRoom.vue";
 import Dashboard from "./components/Dashboard.vue";
 
