@@ -23,8 +23,8 @@ export const API_ENDPOINTS = {
   REGION_DISTRICT: `${API_BASE_URL}/Region/districts/`,
   REGION_WARD: `${API_BASE_URL}/Region/wards/`,
 
-  FEATURE_ALL: `${API_BASE_URL}/F/All`,
-  FEATURE_BY_ROOM_ID: `${API_BASE_URL}/F/get-by-rid/`,
+  FEATURE_ALL: `${API_BASE_URL}/Feature/All`,
+  FEATURE_BY_ROOM_ID: `${API_BASE_URL}/Feature/get-by-rid/`,
 
   UPLOAD_IMAGES: `${API_BASE_URL}/Media/Upload/`,
   UPLOAD_THUMBNAIL: `${API_BASE_URL}/Media/upload_thumbnail/`,
