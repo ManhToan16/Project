@@ -1,9 +1,7 @@
 // Localhost
-// export const API_BASE_URL = "https://localhost:7210/api"; //https
-export const API_BASE_URL = "https://localhost:7223/api"; // http
 
-// Internet
-// export const API_BASE_URL = "http://103.9.77.15:10003/api";
+export const API_BASE_URL = "https://localhost:7223/api";
+
 
 export const API_ENDPOINTS = {
   AC_CHGPWD: `${API_BASE_URL}/Account/ChgPwd`,
@@ -28,23 +26,23 @@ export const API_ENDPOINTS = {
   FEATURE_ALL: `${API_BASE_URL}/F/All`,
   FEATURE_BY_ROOM_ID: `${API_BASE_URL}/F/get-by-rid/`,
 
-  UPLOAD_IMAGES: `${API_BASE_URL}/M/Upload/`,
-  UPLOAD_THUMBNAIL: `${API_BASE_URL}/M/upload_thumbnail/`,
-  GET_MEDIA_ROOM: `${API_BASE_URL}/M/`,
+  UPLOAD_IMAGES: `${API_BASE_URL}/Media/Upload/`,
+  UPLOAD_THUMBNAIL: `${API_BASE_URL}/Media/upload_thumbnail/`,
+  GET_MEDIA_ROOM: `${API_BASE_URL}/Media/`,
 
-  PAYMENT_LIST_TYPE: `${API_BASE_URL}/PS/All`,
-  PAYMENT_METHOD: `${API_BASE_URL}/PS/All`,
+  PAYMENT_LIST_TYPE: `${API_BASE_URL}/Payment_Status/All`,
+  PAYMENT_METHOD: `${API_BASE_URL}/Payment_Status/All`,
   QR_GENERATE: `${API_BASE_URL}/qr/generate`,
 
   GET_BOOKING_SCHEDULE: `${API_BASE_URL}/Booking/get-schedule/`,
-  CREATE_BOOKING: `${API_BASE_URL}/booking/create`,
-  GET_LIST_BOOKING: `${API_BASE_URL}/booking/get-bookings`,
-  CANCEL_BOOKING: `${API_BASE_URL}/booking/cancel-booking/`,
-  CONFIRM_BOOKING: `${API_BASE_URL}/booking/confirm-booking/`,
-  MY_BOOKING: `${API_BASE_URL}/booking/my-bookings`,
-  CHECK_IN: `${API_BASE_URL}/booking/check-in/`,
-  CHECK_OUT: `${API_BASE_URL}/booking/check-out/`,
-  GET_BOOKING_STATUSCOUNT: `${API_BASE_URL}/booking/get-bookingstatus`,
+  CREATE_BOOKING: `${API_BASE_URL}/Booking/create`,
+  GET_LIST_BOOKING: `${API_BASE_URL}/Booking/get-bookings`,
+  CANCEL_BOOKING: `${API_BASE_URL}/Booking/cancel-booking/`,
+  CONFIRM_BOOKING: `${API_BASE_URL}/Booking/confirm-booking/`,
+  MY_BOOKING: `${API_BASE_URL}/Booking/my-bookings`,
+  CHECK_IN: `${API_BASE_URL}/Booking/check-in/`,
+  CHECK_OUT: `${API_BASE_URL}/Booking/check-out/`,
+  GET_BOOKING_STATUSCOUNT: `${API_BASE_URL}/Booking/get-bookingstatus`,
 };
 
 export const VARIABLE = {
