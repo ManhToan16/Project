@@ -38,6 +38,7 @@ const routes = [
     component: ManagePlace,
     path: "/ManagePlace"
   },
+
   {
       name: "SearchResult",
       component: SearchResult,
