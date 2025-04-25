@@ -23,6 +23,14 @@ export default {
       v-model="searchQuery"
       @keypress.enter="emitSearch"
     />
+    <!-- <input type="date" placeholder="Nhận phòng" /> -->
+    <!-- <input type="date" placeholder="Trả phòng" /> -->
+    <!-- <select>
+      <option value="1">1 người lớn</option>
+      <option value="2">2 người lớn</option>
+      ...
+    </select> -->
+    <!-- <button>Tìm</button> -->
   </div>
 </template>
 
