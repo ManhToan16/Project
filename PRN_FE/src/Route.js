@@ -37,7 +37,7 @@ const routes = [
     name:"ManagePlace",
     component: ManagePlace,
     path: "/ManagePlace"
-  }
+  },
 //   {
   //     name: "SearchResult",
   //     component: SearchResult,
